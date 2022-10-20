@@ -1,0 +1,27 @@
+###
+GET http://localhost:3000/api/clientes HTTP/1.1
+
+###
+POST http://localhost:3000/api/clientes/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Salu",
+    "apellido": "Lima",
+    "correo": "salua@gmail.com",
+    "direccion": "Saenz peña 123"
+}
+
+###
+DELETE  http://localhost:3000/api/clientes/4 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/clientes/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Luis",
+    "apellido": "Lima",
+    "correo": "salua@gmail.com",
+    "direccion": "Saenz peña 123"
+}
