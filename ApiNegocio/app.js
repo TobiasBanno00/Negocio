@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 
-// Indicamos base de datos
+// Indicamos base de datos y conexion
 const dbOptions = {
     host: 'localhost',
     port: 33065,
