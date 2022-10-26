@@ -1,0 +1,27 @@
+.contenedor-Inicio {
+    height: 78vh;
+    background-blend-mode: multiply,multiply;
+    background-image: linear-gradient(to right, #5e6a73 0%, #292d2e 100%), url(../assets/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor */
+
+    overflow: hidden;  /* lo que se desborda se oculta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.832);
+}
+
+
+.titulo{
+    font-size: 60px;
+    
+}
+
+.subTitulo{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}

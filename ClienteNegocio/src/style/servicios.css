@@ -1,0 +1,32 @@
+.contenedorTotal{
+    width: 80%;
+    height: 85vh;
+    max-width: 1200px;
+    overflow: hidden;    /* lo que se desborda se oculta */
+    margin: auto;        /* centrar bloque */
+    padding: 60px 0;
+}
+
+.contenedor-servicios{
+    display: flex;
+    justify-content: space-evenly;    /* espacio equitativo */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subtituloServicios{
+    color: rgba(30, 86, 108, 0.95);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.lista-servicio{
+    width: 45%;
+    
+}
+
+.logo-servicios{
+    width: 25%
+}
