@@ -6,7 +6,7 @@ function Inicio() {
     <div className='contenedor-Inicio'>
             
             <h1 className="titulo"> Te brindamos siempre una solución</h1>
-            <p className="subTitulo">CarCenter</p>
+            <p className="subTitulo">CarsCenter</p>
             
         </div>
   )

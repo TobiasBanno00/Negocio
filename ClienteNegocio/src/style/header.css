@@ -4,6 +4,8 @@
 
 }
 
+
+/* -----------------------------------------------------------------------MENU PRINCIPAL */
 .menu-navegacion{
     height: 7vh;
     width: 100%;
@@ -11,43 +13,98 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-
 }
 
 
-.botones-Menu{
+.botones-menu{
     margin-left: 50px;
     text-decoration: none;
     color: #ffffff;
     font-weight: 550;
     font-size: 18px;
     cursor: pointer;
-    
+ 
 }
 
-.botones-Menu-Cliente{
+.boton-menu-vehiculo{
     position: absolute; 
     margin-right: 150px;
-    right: 0;
+    left:79vw;
     text-decoration: none;
-    color: #7771e5;
+    color: #ffffff;
     font-weight: 550;
     font-size: 18px;
     cursor: pointer;   
+    padding: 2vh 0;
 }
 
-.botones-Menu-Turno{
+.boton-menu-turno{
     position: absolute; 
     margin-right: 30px;
-    right: 0;
+    left:89vw;
     text-decoration: none;
-    color: #7771e5;
+    color: #ffffff;
     font-weight: 550;
     font-size: 18px;
+    padding: 2vh 0;
     cursor: pointer;   
 }
 
-.Logo{
+.menu-logo{
     margin: 10px;
     height: 80%;
+}
+
+/* -----------------------------------------------------------------------SUB MENU VEHICULO */
+.sub-menu-vehiculo{
+    position: absolute;
+    top:7vh;
+    left:77vw;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	display: none;
+}
+
+.sub-menu-vehiculo a{
+    display: block;
+    width: 100%;
+}
+
+.boton-menu-vehiculo:hover + .sub-menu-vehiculo {
+	display: block 
+}
+.sub-menu-vehiculo:hover {
+	display: block 
+}
+
+/* -----------------------------------------------------------------------SUB MENU TURNO */
+
+.sub-menu-turno{
+    position: absolute;
+    top:7vh;
+    left: 88vw;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	display: none;
+}
+
+.sub-menu-turno a{
+    display: block;
+    width: 100%;
+}
+
+.boton-menu-turno:hover + .sub-menu-turno {
+	display: block 
+}
+.sub-menu-turno:hover {
+	display: block 
+}
+
+/*-----------------------------------------------Boton sub menu */
+.botones-sub-menu{
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 15px;
+    cursor: pointer;
+    
 }

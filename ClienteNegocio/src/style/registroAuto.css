@@ -1,0 +1,55 @@
+.contenedorRegistro{
+
+    position:absolute;     
+    top: 10vh;
+    left: 38vw;                     /* centrandolo haciendo 50- (24/2) */
+    width: 24vw !important;       /* anchura y altura */
+    height: 72vh !important;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.contenedorRegistro h4{
+
+    padding-top:6vh ;
+    color: #ffffff;
+}
+
+
+.entradaRegistro{
+    margin-top: 4vh;
+    text-align: center;
+    height: 5vh !important;
+    width: 18vw
+    
+}
+
+.enviarRegistro{
+    position: absolute;
+    bottom: 20px;
+    text-decoration: none;
+    margin-top: 2vh;
+    font-weight: 540;
+    font-size: 3.5vh;
+    cursor: pointer;   
+    color: #ffffff;
+
+
+    
+}
+
+.cerrarRegistro{
+
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    top: 15px;
+    right: 20px;
+    color: #ffffff;
+
+}
