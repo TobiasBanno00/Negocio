@@ -6,6 +6,7 @@ import Servicios from './component/layout/Servicios'
 import Contacto from './component/layout/Contacto'
 import Turno from './component/hooks/Turno'
 import RegistroAuto from './component/hooks/RegistroAuto'
+import InfoAuto from './component/hooks/InfoAuto'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"; /* Routes=switch */
 import { useState } from 'react';
 
@@ -32,6 +33,8 @@ function App() {
           <Route path='/' exact element={<Inicio/>} />
           <Route path='/servicios'  element={<Servicios/>} />
           <Route path='/contacto'  element={<Contacto/>} />
+          <Route path='/informacion'  element={<InfoAuto/>} />
+
         </Routes>
         {compTurno}
         {compRegAuto}

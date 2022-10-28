@@ -25,7 +25,7 @@ function Servicios()
         <div className="contenedorTotal" >
             <h2 className="subtituloServicios">Nuestros servicios</h2>
             <div className="contenedor-servicios">
-                <img class="logo-servicios" src={require(`../../assets/img/hombre.jpg`)} alt='reparacion' />
+                <img class="logo-servicios" src={require(`../../assets/img/hombre.png`)} alt='reparacion' />
                 <div className="lista-servicio">
                     <Servicio info={infoServicio1}/>
 

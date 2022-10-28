@@ -4,13 +4,13 @@
 
 .n-service{
     margin-bottom: 7px;
-    color: rgb(61, 153, 190,0.95);
+    color: rgba(30, 86, 108, 0.95);
 }
 
 .number{
     display: inline-block;
     /* 02 */
-    background-image: linear-gradient(to top,rgb(58, 181, 176) 0%, rgb(61, 153, 190) 31%, hsl(270, 43%, 34%) 100%);
+    background-image: linear-gradient(to top,rgba(30, 86, 108, 0.95) 0%, rgb(4, 53, 74) 31%, rgb(4, 43, 60) 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -19,4 +19,10 @@
     height: 30px;
     color: #fff;
     font-weight: 700;
+}
+
+.info-service{
+    font-size: 17px;
+    font-weight: 600;
+
 }

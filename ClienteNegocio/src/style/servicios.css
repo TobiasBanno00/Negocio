@@ -4,7 +4,7 @@
     max-width: 1200px;
     overflow: hidden;    /* lo que se desborda se oculta */
     margin: auto;        /* centrar bloque */
-    padding: 10vh 0;
+    padding: 7vh 0;
 }
 
 .contenedor-servicios{
@@ -28,5 +28,5 @@
 }
 
 .logo-servicios{
-    width: 25%
+    width: 28%
 }

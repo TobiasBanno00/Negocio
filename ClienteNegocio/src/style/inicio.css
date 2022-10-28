@@ -1,7 +1,7 @@
 .contenedor-Inicio {
     height: 78vh;
     background-blend-mode: multiply,multiply;
-    background-image: linear-gradient(to right, #5e6a73 0%, #292d2e 100%), url(../assets/img/fondo2.jpg);
+    background-image: linear-gradient(to right, #5e6a73 0%, #292d2e 100%), url(../assets/img/fondo3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; /* Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor */

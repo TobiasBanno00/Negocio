@@ -2,6 +2,9 @@
   text-align: center;
 }
 body{
-  background-color: rgb(255, 255, 255);
+  
+    background-image: linear-gradient(to right, #ffffffc0 0%, #ffffffcf 100%), url(./assets/img/fondo3.jpg);
+    background-position: center;
+    background-size: cover; /* Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor */
 }
 

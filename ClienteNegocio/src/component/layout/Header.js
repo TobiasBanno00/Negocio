@@ -19,8 +19,7 @@ function Header({setearTurno,setearRegAuto}) {
                 <a className="boton-menu-vehiculo" ><AiFillCar/> Vehiculo</a>
                 <nav className='sub-menu-vehiculo'>
                   <a className="botones-sub-menu" onClick={setearRegAuto}>Agregar vehiculo </a>
-                  <a className="botones-sub-menu">Información Vehiculo </a>
-                  <a className="botones-sub-menu">Editar Vehiculo</a>
+                  <a className="botones-sub-menu" href="/informacion">Información Vehiculo </a>
                 </nav>
                 <a className="boton-menu-turno" > <AiFillEdit/>  Turno </a>
                 <nav className='sub-menu-turno'>
