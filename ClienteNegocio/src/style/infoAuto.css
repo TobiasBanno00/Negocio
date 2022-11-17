@@ -1,4 +1,36 @@
 .contenedor-info{
     height: 85vh;
+    width: 80vw;
+    margin: auto;        /* centrar bloque */
     display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.info-titulo{
+    color: rgba(30, 86, 108, 0.95);
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.contenedor-busqueda{
+    margin-top: 15px;
+    display: flex;
+    font-size: 30px;
+}
+
+.entradaBusqueda{
+    margin-left: 10px;
+    width: 280px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.info-boton{
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 70px;
+    height: 30px;
 }
